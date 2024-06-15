@@ -38,6 +38,7 @@ const Login = ({ onLoginSuccess }) => {
                 <Label htmlFor="senha">SENHA</Label>
                 <InputSenha
                     value={senha}
+                    type="password"
                     onChange={(e) => setSenha(e.target.value)}
                 />
                 <Button onClick={handleLogin}>ENTRAR</Button>
